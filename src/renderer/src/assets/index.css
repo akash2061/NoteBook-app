@@ -10,13 +10,9 @@
     html,
     body {
         @apply h-full;
-
         @apply select-none;
-
         @apply bg-transparent;
-
         @apply font-mono antialiased text-fuchsia-100;
-
         @apply overflow-hidden;
     }
 }
