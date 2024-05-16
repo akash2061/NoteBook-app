@@ -1,5 +1,6 @@
 import { contextBridge } from 'electron'
-import { electronAPI } from '@electron-toolkit/preload'
+/*import { electronAPI } from '@electron-toolkit/preload'
+
 
 // Custom APIs for renderer
 const api = {}
@@ -19,4 +20,16 @@ if (process.contextIsolated) {
 	window.electron = electronAPI
 	// @ts-ignore (define in dts)
 	window.api = api
+}
+*/
+
+if(!process.contextIsolated){
+	throw new Error('contextIsolation must be enabled in BrowserWindow')
+}
+try {
+	contextBridge.exposeInMainWorld('context',{
+		//Todo
+	})
+} catch (error) {
+	console.log(error)
 }
