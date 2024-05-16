@@ -13,13 +13,13 @@ function createWindow(): void {
 		...(process.platform === 'linux' ? { icon } : {}),
 		center: true,
 		title:'Notebook',
-		frame: false,
+		frame: true,
 		backgroundColor: '#B0454545', // Semi-transparent background color for Windows
 		transparent: true,
 		vibrancy: 'under-window', // macOS only ;)
 		visualEffectState: 'active',
 		titleBarStyle: 'hidden',
-		trafficLightPosition:{x: 15, y:10},
+		// trafficLightPosition:{x: 5, y:5},
 		webPreferences: {
 			preload: join(__dirname, '../preload/index.js'),
 			sandbox: true,
