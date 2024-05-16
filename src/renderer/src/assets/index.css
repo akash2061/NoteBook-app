@@ -15,4 +15,8 @@
         @apply font-mono antialiased text-fuchsia-100;
         @apply overflow-hidden;
     }
+
+    header {
+        --webkit-app-region: drag;
+    }
 }
