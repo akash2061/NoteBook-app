@@ -1,4 +1,4 @@
-# Desktop Application
+# Notebook: A Desktop Application.
 
 An Electron application with React and TypeScript
 
