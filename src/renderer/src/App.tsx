@@ -5,8 +5,8 @@ const App = () => {
 		// 	<span className="text-4xl text-cyan-500">Hello... Morningstar_2061...!</span>
 		// </div>
 		<>
-			<DragableTopBar />
 			<RootLayout>
+			<DragableTopBar />
 				<Sidebar className="p-2">
 					<ActionButtonRow className="flex justify-between mt-1" />
 				</Sidebar>
