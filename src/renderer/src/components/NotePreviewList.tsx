@@ -1,4 +1,3 @@
-import { notesMock } from "@/store/mocks"
 import { ComponentProps } from "react"
 import { NotePreview } from "@/components/NotePreview"
 import { twMerge } from "tailwind-merge"

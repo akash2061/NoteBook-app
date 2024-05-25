@@ -8,9 +8,14 @@ export const RootLayout = ({ className, children, ...props }: ComponentProps<'ma
 }
 
 export const Sidebar = ({ className, children, ...props }: ComponentProps<'aside'>) => {
-    return <aside className={twMerge('w-[250px] mt-10 h-[100vh + 10px] overflow-auto', className)}{...props}>
-        {children}
-    </aside>
+    return (
+        <aside className={twMerge('w-[250px] mt-10 h-[100vh + 10px] overflow-auto', className)}{...props}>
+            <div className={twMerge('flex justify-center italic', className)}>
+                <span className="text-gray-400">Organizing ideas made easy. 🚀</span>
+            </div>
+            {children}
+        </aside>
+    )
 }
 
 export const Content = forwardRef<HTMLDivElement, ComponentProps<'div'>>(
