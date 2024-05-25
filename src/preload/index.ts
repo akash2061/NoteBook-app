@@ -28,7 +28,7 @@ if(!process.contextIsolated){
 }
 try {
 	contextBridge.exposeInMainWorld('context',{
-		//Todo
+		locate: navigator.language
 	})
 } catch (error) {
 	console.log(error)
