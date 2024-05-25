@@ -7,12 +7,20 @@
         @apply h-full;
     }
 
+    .font-dejavu-serif-book {
+        font-family: "DejaVu Serif Book", serif;
+    }
+
+    .font-fira-code {
+        font-family: "Fira Code", monospace;
+    }
+
     html,
     body {
         @apply h-full;
         @apply select-none;
         @apply bg-transparent;
-        @apply font-mono antialiased text-fuchsia-100;
+        @apply font-dejavu-serif-book antialiased text-fuchsia-100;
         @apply overflow-hidden;
     }
 
