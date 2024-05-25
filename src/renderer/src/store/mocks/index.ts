@@ -2,7 +2,7 @@ import { NoteInfo } from '@shared/models'
 
 export const notesMock: NoteInfo[] = [
     {
-        title: 'Welcome... 👋',
+        title: 'Welcome to NoteBook! 👋',
         lastEditTime: new Date().getTime(),
     },
     {

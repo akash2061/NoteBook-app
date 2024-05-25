@@ -12,7 +12,7 @@ function createWindow(): void {
 		autoHideMenuBar: true,
 		...(process.platform === 'linux' ? { icon } : {}),
 		center: true,
-		title: 'Notebook',
+		title: 'NoteBook',
 		frame: false,
 		backgroundColor: '#ED454545', // Semi-transparent background color for Windows
 		transparent: true,
