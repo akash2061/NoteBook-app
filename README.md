@@ -2,7 +2,7 @@
 
 Notebook is a powerful Electron application built with React and TypeScript, designed to streamline your note-taking experience. With its intuitive interface and robust features, Notebook provides a seamless platform for organizing your thoughts, ideas, and tasks.
 
-![Demo](.github/Demo.png)
+![Demo](.github-assets/Demo.png)
 
 ## Project Setup
 
