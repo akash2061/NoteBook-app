@@ -1,11 +1,12 @@
 import clsx, { ClassValue } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 
+const locale = window.context && window.context.locale ? window.context.locale : 'UTC';
 
-const dateFormatter = new Intl.DateTimeFormat(window.context.loacte, {
+const dateFormatter = new Intl.DateTimeFormat(locale, {
     dateStyle: 'short',
     timeStyle: 'short',
-    timeZone: 'UTC'
+    timeZone: 'Asia/Kolkata'
 })
 
 export const formatDateFromMs = (ms: number) => dateFormatter.format(ms)
