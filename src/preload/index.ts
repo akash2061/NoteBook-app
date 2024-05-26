@@ -23,12 +23,13 @@ if (process.contextIsolated) {
 }
 */
 
-if(!process.contextIsolated){
+if (!process.contextIsolated) {
 	throw new Error('contextIsolation must be enabled in BrowserWindow')
 }
 try {
-	contextBridge.exposeInMainWorld('context',{
-		locate: navigator.language
+	contextBridge.exposeInMainWorld('context', {
+		locate: navigator.language,
+		platform: process.platform
 	})
 } catch (error) {
 	console.log(error)

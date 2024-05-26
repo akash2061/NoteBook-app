@@ -5,6 +5,7 @@ declare global {
 		// electron: ElectronAPI
 		context: {
 			locale: string;
+			platform: string;
 		}
 	}
 }

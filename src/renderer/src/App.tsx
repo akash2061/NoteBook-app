@@ -1,5 +1,5 @@
 import { Content, RootLayout, Sidebar, DragableTopBar, ActionButtonRow, NotePreviewList, MarkdownEditor, FloatingNoteTitle } from "@/components";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 const App = () => {
 
@@ -7,6 +7,23 @@ const App = () => {
 	const resetScroll = () => {
 		constantContainerRef.current?.scrollTo(0, 0)
 	}
+
+	useEffect(() => {
+		// Check if the platform information is available before using it
+		if (window.context && window.context.platform) {
+			const platform = window.context.platform;
+			if (platform === 'linux') {
+				document.documentElement.style.setProperty('--default-font-size', '18px'); // Adjust font size for Linux
+				// console.log("Platform : ", platform);
+			} else {
+				document.documentElement.style.setProperty('--default-font-size', '16px'); // Default font size
+				// console.log("Platform : ", platform);
+			}
+		} else {
+			console.error('Platform information is not available');
+		}
+	}, []);
+
 	return (
 		<>
 			<RootLayout>
