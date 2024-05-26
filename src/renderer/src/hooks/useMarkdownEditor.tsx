@@ -1,8 +1,8 @@
-import { selectedNotesAtom } from "@renderer/store"
+import { selectedNoteAtom } from "@renderer/store"
 import { useAtomValue } from "jotai"
 
 export const useMarkdownEditor = () => {
-    const selectedNote = useAtomValue(selectedNotesAtom)
+    const selectedNote = useAtomValue(selectedNoteAtom)
 
     return {
         selectedNote

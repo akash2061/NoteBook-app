@@ -20,7 +20,7 @@ export const selectedNoteAtom = atom((get) => {
     }
 })
 
-export const createEmptyNote = atom(null, (get, set) => {
+export const createEmptyNoteAtom = atom(null, (get, set) => {
     const notes = get(notesAtom)
 
     const title = `Note ${notes.length + 1}`
