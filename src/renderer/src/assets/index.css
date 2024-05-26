@@ -14,6 +14,7 @@
     .font-fira-code {
         font-family: "Fira Code", monospace;
     }
+
     .font-caskaydia-cove {
         font-family: "CaskaydiaCove Nerd Font";
     }
@@ -25,7 +26,7 @@
         @apply bg-transparent;
         @apply font-caskaydia-cove antialiased text-fuchsia-100;
         @apply overflow-hidden;
-        font-size: var(--default-font-size, 16px);
+        font-size: var(--default-font-size, 1rem);
     }
 
     header {

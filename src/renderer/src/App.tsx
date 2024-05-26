@@ -16,7 +16,7 @@ const App = () => {
 				document.documentElement.style.setProperty('--default-font-size', '18px'); // Adjust font size for Linux
 				// console.log("Platform : ", platform);
 			} else {
-				document.documentElement.style.setProperty('--default-font-size', '16px'); // Default font size
+				document.documentElement.style.setProperty('--default-font-size', '1rem'); // Default font size
 				// console.log("Platform : ", platform);
 			}
 		} else {
