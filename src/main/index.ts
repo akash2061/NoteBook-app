@@ -14,7 +14,8 @@ function createWindow(): void {
 		center: true,
 		title: 'NoteBook',
 		frame: false,
-		backgroundColor: '#ED454545', // Semi-transparent background color for Windows
+		// backgroundColor: '#ED454545', // Semi-transparent background color for Windows
+		backgroundColor: '#00000000', // Semi-transparent background color for Windows
 		transparent: true,
 		vibrancy: 'under-window', // macOS only ;)
 		visualEffectState: 'active',
