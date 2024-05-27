@@ -6,8 +6,8 @@
     #root {
         @apply h-full;
         @apply bg-[#4d4d4dd4];
-        @apply rounded-lg; /* Apply border-radius here */
-        @apply overflow-hidden; /* Ensure content doesn't overflow */
+        @apply rounded-lg;
+        @apply overflow-hidden;
         @apply shadow-lg;
     }
 
