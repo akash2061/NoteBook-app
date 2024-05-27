@@ -24,7 +24,7 @@
         @apply h-full;
         @apply select-none;
         @apply bg-transparent;
-        @apply font-caskaydia-cove antialiased text-fuchsia-100;
+        @apply font-caskaydia-cove antialiased text-sky-100;
         @apply overflow-hidden;
         font-size: var(--default-font-size, 1rem);
     }
