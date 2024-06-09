@@ -1,4 +1,5 @@
 import { ElectronAPI } from '@electron-toolkit/preload'
+import { GetNotes } from '@shared/types';
 
 declare global {
 	interface Window {
@@ -6,6 +7,7 @@ declare global {
 		context: {
 			locale: string;
 			platform: string;
+			getNotes: GetNotes;
 		}
 	}
 }
