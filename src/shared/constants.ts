@@ -1,2 +1,2 @@
 export const appDirectoryName = 'NoteBook'
-export const fileEncoding = 'utf8'
+export const fileEncoding = 'UTF-8'

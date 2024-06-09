@@ -35,5 +35,5 @@ export const getNoteInfoFromFilename = async (filename: string): Promise<NoteInf
 export const readNote: ReadNote = async (filename) => {
     const rootDir = getRootDir()
 
-    return readFile(`${rootDir}/${filename}.md`, { encoding: fileEncoding })
+    return readFile(`${rootDir}/${filename}.md`, { encoding: 'utf-16le' })
 }
