@@ -3,11 +3,18 @@ import { NoteInfo } from "@shared/models"
 import { CreateNote, GetNotes, ReadNote, WriteNote } from "@shared/types"
 import { dialog } from "electron"
 import { ensureDir, readdir, stat, readFile, writeFile } from "fs-extra"
-import { homedir } from "os"
+import { homedir, platform } from "os"
 import path from "path"
 
 export const getRootDir = () => {
-    return `${homedir()}\\${appDirectoryName}`
+    const currentPlatform = platform();
+    if (currentPlatform === 'win32') {
+        // console.log("Platform : ", platform);
+        return `${homedir()}\\${appDirectoryName}`
+    } else {
+        // console.log("Platform : ", platform);
+        return `${homedir()}/${appDirectoryName}`
+    }
 }
 
 export const getNotes: GetNotes = async () => {
