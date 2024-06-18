@@ -9,7 +9,7 @@ import { useMarkdownEditor } from "@renderer/hooks/useMarkdownEditor";
 
 export const MarkdownEditor = () => {
 
-    const { editorRef, selectedNote, handleAutoSave } = useMarkdownEditor()
+    const { editorRef, selectedNote, handleAutoSave, handleBlur } = useMarkdownEditor()
     if (!selectedNote) return null
 
     return (
@@ -18,6 +18,7 @@ export const MarkdownEditor = () => {
             key={selectedNote.title}
             markdown={selectedNote.content}
             onChange={handleAutoSave}
+            onBlur={handleBlur}
             plugins={[headingsPlugin(), listsPlugin(), quotePlugin(), markdownShortcutPlugin()]}
             contentEditableClassName="outline-none min-h-screen max-w-none text-lg px-8 py-5 caret-yellow-500 
             prose prose-invert prose-p:my-3 prose-p:leading-relaxed prose-headings:my-4 prose-blockquote:my-4 
