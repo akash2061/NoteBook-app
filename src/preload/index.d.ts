@@ -9,6 +9,7 @@ declare global {
 			platform: string;
 			getNotes: GetNotes;
 			readNote: ReadNote;
+			writeNote: WriteNote;
 		}
 	}
 }
