@@ -1,4 +1,3 @@
-import { ElectronAPI } from '@electron-toolkit/preload'
 import { GetNotes, ReadNote } from '@shared/types';
 
 declare global {
@@ -10,6 +9,7 @@ declare global {
 			getNotes: GetNotes;
 			readNote: ReadNote;
 			writeNote: WriteNote;
+			createNote: CreateNote;
 		}
 	}
 }

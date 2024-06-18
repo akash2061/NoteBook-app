@@ -3,10 +3,10 @@ import { LuFileSignature } from 'react-icons/lu'
 import { createEmptyNoteAtom } from "@renderer/store"
 import { useSetAtom } from "jotai"
 export const NewNoteButton = ({ ...props }: ActionButtonProps) => {
-
     const createEmptyNote = useSetAtom(createEmptyNoteAtom)
-    const handleCreation = () => {
-        createEmptyNote()
+
+    const handleCreation = async () => {
+        await createEmptyNote()
     }
 
     return (
