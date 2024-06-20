@@ -2,7 +2,26 @@
 
 Notebook is a powerful Electron application built with React and TypeScript, designed to streamline your note-taking experience. With its intuitive interface and robust features, Notebook provides a seamless platform for organizing your thoughts, ideas, and tasks.
 
-![Demo](.github-assets/Demo.png)
+![Demo](.github-assets/Demo1.png)
+
+## Getting Started
+
++ **Installation:** Begin by installing Notebook using the provided installation instructions.
+
++ **Create a Note:** Launch Notebook and start creating your first note by clicking on the "New Note" button.
+
++ **Organize:** Use tags and categories to organize your notes for easy retrieval.
+
++ **Start Writing:** Dive into the world of note-taking with Notebook and unleash your creativity.
+
+## Download NoteBook
+### For Windows: 
++ [Setup]() 
++ [Pre-installed]()
+### For Linux: 
++ [Setup]() 
++ [Pre-installed]()
+
 
 ## Project Setup
 
@@ -30,16 +49,6 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
-
-## Getting Started
-
-+ **Installation:** Begin by installing Notebook using the provided installation instructions.
-
-+ **Create a Note:** Launch Notebook and start creating your first note by clicking on the "New Note" button.
-
-+ **Organize:** Use tags and categories to organize your notes for easy retrieval.
-
-+ **Start Writing:** Dive into the world of note-taking with Notebook and unleash your creativity.
 
 ## Contributing
 
