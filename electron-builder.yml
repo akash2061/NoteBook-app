@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: notebook
+productName: NoteBook
 directories:
   buildResources: build
 files:
@@ -12,7 +12,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: notebook
+  executableName: NoteBook
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
@@ -33,6 +33,7 @@ linux:
     - AppImage
     - snap
     - deb
+    - pacman
   maintainer: electronjs.org
   category: Utility
 appImage:
