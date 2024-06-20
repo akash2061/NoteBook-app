@@ -35,7 +35,7 @@ export const getNotes: GetNotes = async () => {
         const content = await readFile(welcomeNoteFile, { encoding: fileEncoding })
 
         // create the welcome note
-        await writeFile(`${rootDir}/${welcomeNoteFilename}`, content, { encoding: fileEncoding })
+        await writeFile(`${rootDir}/${welcomeNoteFilename}`, content, { encoding: 'utf-16le' })
 
         notes.push(welcomeNoteFilename)
     }
