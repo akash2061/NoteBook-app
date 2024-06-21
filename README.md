@@ -2,7 +2,7 @@
 
 Notebook is a powerful Electron application built with React and TypeScript, designed to streamline your note-taking experience. With its intuitive interface and robust features, Notebook provides a seamless platform for organizing your thoughts, ideas, and tasks.
 
-![Demo](.github-assets/Demo1.png)
+![Demo](.github-assets/Demo3.png)
 
 ## Getting Started
 
@@ -14,9 +14,24 @@ Notebook is a powerful Electron application built with React and TypeScript, des
 
 + **Start Writing:** Dive into the world of note-taking with Notebook and unleash your creativity.
 
+## Successfully Tested on:
++ Kali Linux - 2024.2 (Linux-6.8.11-amd64)
++ Ubuntu - 24.04 LTS
++ Windows 11 
+
 ## Download NoteBook
-### For Linux: 
-+ [Setup]() 
+### For [Linux](https://github.com/akash2061/NoteBook/releases/tag/v1.0.0-Linux): 
++ [Setup (.deb)](https://github.com/akash2061/NoteBook/releases/download/v1.0.0-Linux/NoteBook_1.0.0_amd64.deb) 
++ [Setup (.snap)](https://github.com/akash2061/NoteBook/releases/download/v1.0.0-Linux/NoteBook_1.0.0_amd64.snap) 
+#### Note: Navigate to downloads folder & run:
+#### For .deb:
+```bash
+sudo dpkg -i NoteBook_1.0.0_amd64.deb 
+```
+#### For .snap:
+```bash
+sudo snap install --dangerous NoteBook_1.0.0_amd64.snap
+```
 ### For [Windows](https://github.com/akash2061/NoteBook/releases/tag/v1.0.0): 
 + [Setup](https://github.com/akash2061/NoteBook/releases/download/v1.0.0/notebook-1.0.0-setup.exe)
 + [Pre-installed]()
