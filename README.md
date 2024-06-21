@@ -8,15 +8,17 @@ Notebook is a powerful Electron application built with React and TypeScript, des
 
 + **Installation:** Begin by installing Notebook using the provided installation instructions.
 
-+ **Create a Note:** Launch Notebook and start creating your first note by clicking on the "New Note" button.
++ **Create a Note:** Launch Notebook and start creating your first note by clicking on the `New Note` button.
 
 + **Organize:** Use tags and categories to organize your notes for easy retrieval.
 
 + **Start Writing:** Dive into the world of note-taking with Notebook and unleash your creativity.
 
++ **Note Storage:** Notes are stored in `~/NoteBook/` folder in makedown `.md` format.
+
 ## Successfully Tested on:
-+ Kali Linux - 2024.2 (Linux-6.8.11-amd64)
-+ Ubuntu - 24.04 LTS
++ Kali Linux - `2024.2 (Linux-6.8.11-amd64)`
++ Ubuntu - `24.04 LTS`
 + Windows 11 
 
 ## Download NoteBook
@@ -36,7 +38,7 @@ sudo snap install --dangerous NoteBook_1.0.0_amd64.snap
 + [Setup](https://github.com/akash2061/NoteBook/releases/download/v1.0.0/notebook-1.0.0-setup.exe)
 + [Pre-installed]()
 
-## Project Setup
+## Project Setup:
 
 ### Clone Repo.
 
