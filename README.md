@@ -29,6 +29,10 @@ Notebook is a powerful Electron application built with React and TypeScript, des
 ### For [Arch Linux](https://github.com/akash2061/NoteBook/releases/tag/v1.0.0-Linux): 
 + [Setup (.pacman)](https://github.com/akash2061/NoteBook/releases/download/v1.0.0-Linux/NoteBook-1.0.0.pacman) 
 #### Note: Navigate to downloads folder & run:
+#### For .pacman:
+```bash
+sudo pacman -U NoteBook_1.0.0.pacman 
+```
 #### For .deb:
 ```bash
 sudo dpkg -i NoteBook_1.0.0_amd64.deb 
@@ -43,7 +47,7 @@ sudo snap install --dangerous NoteBook_1.0.0_amd64.snap
 
 ## Project Setup:
 
-### Clone Repo.
+### Clone Repo. or Download [.ZIP](https://github.com/akash2061/NoteBook/archive/refs/heads/master.zip)
 
 ```bash
 $ git clone https://github.com/akash2061/NoteBook.git
