@@ -22,7 +22,8 @@ Notebook is a powerful Electron application built with React and TypeScript, des
 + Ubuntu - `24.04 LTS`
 + Windows 11 
 
-## Download NoteBook
+## Download NoteBook:
+
 ### For [Debian Based](https://github.com/akash2061/NoteBook/releases/tag/v1.0.0-Linux): 
 + [Setup (.deb)](https://github.com/akash2061/NoteBook/releases/download/v1.0.0-Linux/NoteBook_1.0.0_amd64.deb) 
 + [Setup (.snap)](https://github.com/akash2061/NoteBook/releases/download/v1.0.0-Linux/NoteBook_1.0.0_amd64.snap) 
