@@ -18,7 +18,7 @@ Notebook is a powerful Electron application built with React and TypeScript, des
 
 ## Successfully Tested on:
 + Kali Linux - `2024.2 (Linux-6.8.11-amd64)`
-+ Arch Linux - `x86_64`
++ Arch Linux - `x86_64 (6.9.5-arch1-1)`
 + Ubuntu - `24.04 LTS`
 + Windows 11 
 
