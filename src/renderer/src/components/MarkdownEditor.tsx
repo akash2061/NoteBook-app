@@ -6,7 +6,8 @@ import {
     markdownShortcutPlugin,
     quotePlugin,
     tablePlugin,
-    toolbarPlugin
+    toolbarPlugin,
+    linkPlugin
 } from "@mdxeditor/editor";
 import { useMarkdownEditor } from "@renderer/hooks/useMarkdownEditor";
 
@@ -29,7 +30,8 @@ export const MarkdownEditor = () => {
                     quotePlugin(),
                     markdownShortcutPlugin(),
                     tablePlugin(),
-                    toolbarPlugin({ toolbarContents: () => <InsertTable /> })
+                    toolbarPlugin({ toolbarContents: () => <InsertTable /> }),
+                    linkPlugin() // linkDialogPlugin is remaining
                 ]
             }
             contentEditableClassName="outline-none min-h-screen max-w-none text-lg px-8 py-5 caret-yellow-500 
