@@ -56,4 +56,11 @@
     ::-webkit-scrollbar-track {
         @apply bg-transparent
     }
+
+    .toolbar-icon {
+        margin-left: 15px;
+        display: flex;
+        gap: 10px;
+        justify-content: space-evenly;
+    }
 }
