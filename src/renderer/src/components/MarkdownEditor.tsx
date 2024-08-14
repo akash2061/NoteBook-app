@@ -10,43 +10,11 @@ import {
     linkPlugin,
     codeBlockPlugin,
     codeMirrorPlugin,
-    sandpackPlugin,
     ConditionalContents,
     ChangeCodeMirrorLanguage,
-    ShowSandpackInfo,
     InsertCodeBlock,
-    InsertSandpack
 } from "@mdxeditor/editor";
 import { useMarkdownEditor } from "@renderer/hooks/useMarkdownEditor";
-
-// Default snippet content for Sandpack
-const defaultSnippetContent = `
-export default function App() {
-    return (
-        <div className="App">
-            <h1>Hello CodeSandbox</h1>
-            <h2>Start editing to see some magic happen!</h2>
-        </div>
-    );
-}
-`.trim();
-
-// Sandpack configuration
-const simpleSandpackConfig = {
-    defaultPreset: 'react',
-    presets: [
-        {
-            label: 'React',
-            name: 'react',
-            meta: 'live react',
-            sandpackTemplate: 'react',
-            sandpackTheme: 'light',
-            snippetFileName: '/App.js',
-            snippetLanguage: 'jsx',
-            initialSnippetContent: defaultSnippetContent
-        },
-    ]
-};
 
 export const MarkdownEditor = () => {
     const { editorRef, selectedNote, handleAutoSave, handleBlur } = useMarkdownEditor();
@@ -84,7 +52,6 @@ export const MarkdownEditor = () => {
                 }),
                 linkPlugin(),
                 codeBlockPlugin({ defaultCodeBlockLanguage: 'js' }),
-                //sandpackPlugin({ sandpackConfig: simpleSandpackConfig }),
                 codeMirrorPlugin({
                     codeBlockLanguages: {
                         c: 'C',
