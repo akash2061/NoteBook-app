@@ -8,8 +8,8 @@ Following there's a quick overview of the currently supported Markdown syntax.
 
 ## Text formatting
 
-This is a **bold** text.
-This is an _italic_ text.
+This is a **bold** (** **) text.
+This is an _italic_ (_ _)text.
 
 ## Headings
 
@@ -23,7 +23,7 @@ Here are all the heading formats currently supported by **_NoteBook_**:
 
 #### Heading 4
 
-### Bulleted list
+### Bulleted list :
 
 For example, you can add a list of bullet points:
 
@@ -43,12 +43,22 @@ Here we have a numbered list:
 
 > This is a blockquote. You can use it to emphasize some text or to cite someone.
 
-### Code blocks
+### Code blocks Support:
 
-Only `inline code` is currently supported!
+- `Inline code`
+- Code Snippets:
+```rust
+    # Code Snippet Example:
+    console.log("Hey, User.");
+    console.log(`
+        Welcome to the NoteBook.
+                        --akash2061
+    `);
+```
 
-Code block snippets using the following syntax _\`\`\`js\`\`\`_ are **_not supported_** yet!
+### In Production: 
+####  _Adding Image_
+- *(Note: Instructions for adding images will be added once this feature is supported.)*
 
-### Links
-
-Links are **_not supported_** yet!
+#### Links
+ - Links are **_not supported_** yet!
