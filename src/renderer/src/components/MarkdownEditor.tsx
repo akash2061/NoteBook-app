@@ -57,12 +57,15 @@ export const MarkdownEditor = () => {
                         c: 'C',
                         cpp: 'C++',
                         rust: 'Rust',
+                        go: 'Go',
+                        ruby: 'Ruby',
                         java: "Java",
                         js: 'JavaScript',
                         python: "Python",
                         html: "HTML",
                         css: 'CSS',
-                    }
+                    },
+                    autoLoadLanguageSupport: true,
                 }),
                 markdownShortcutPlugin()
             ]}
