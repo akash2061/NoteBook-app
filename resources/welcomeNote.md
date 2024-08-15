@@ -47,7 +47,7 @@ Here we have a numbered list:
 
 - `Inline code`
 - Code Snippets:
-```rust
+```java
 # Code Snippet Example:
 console.log("Hey, User.");
 console.log(`
