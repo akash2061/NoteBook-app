@@ -50,7 +50,7 @@ export const createEmptyNoteAtom = atom(null, async (get, set) => {
 
     set(notesAtom, [newNote, ...notes.filter((note) => note.title !== newNote.title)])
 
-    set(selectedNoteIndexAtom, 0)
+    set(selectedNoteIndexAtom, 1)
 })
 export const deleteNoteAtom = atom(null, async (get, set) => {
     const notes = get(notesAtom)
