@@ -64,3 +64,98 @@
         /* justify-content: space-evenly; */
     }
 }
+
+.cm-content {
+    background-color: #04003b9c;
+    /* Dark background for CodeMirror editor */
+    color: #e5e7eb;
+    /* Light text color */
+}
+
+.ͼo .cm-gutters {
+    background-color: #d5e1f5;
+    color: #000000;
+    border: none;
+}
+
+.cm-scroller {
+    background-color: transparent;
+    border-radius: 7px;
+}
+
+.cm-editor {
+    background-color: transparent;
+}
+
+.cm-line {
+    color: #999999;
+    /* Light text color for lines */
+}
+
+.cm-activeLine.cm-line {
+    background-color: #06285ecc;
+    /* Slightly darker background for active line */
+}
+
+.cm-s-default .cm-comment {
+    color: #6b7280;
+    /* Light grey for comments */
+}
+
+.cm-s-default .cm-keyword {
+    color: #f59e0b;
+    /* Highlight keywords in orange */
+}
+
+.cm-s-default .cm-string {
+    color: #10b981;
+    /* Highlight strings in green */
+}
+
+.cm-s-default .cm-number {
+    color: #f59e0b;
+    /* Highlight numbers in orange */
+}
+
+.cm-s-default .cm-variable {
+    color: #93c5fd;
+    /* Highlight variables in light blue */
+}
+
+.cm-s-default .cm-function {
+    color: #f59e0b;
+    /* Highlight functions in orange */
+}
+
+.cm-s-default .cm-operator {
+    color: #e5e7eb;
+    /* Light text color for operators */
+}
+
+/* Override default prose settings for dark mode */
+.prose {
+    --tw-prose-code: #e5e7eb;
+    /* Light code text */
+    --tw-prose-pre-code: #e5e7eb;
+    /* Light code text for pre blocks */
+    --tw-prose-pre-bg: #420057c2;
+    /* Dark background for pre blocks */
+    --tw-prose-body: #d1d5db;
+    /* Light body text */
+    --tw-prose-headings: #ffffff;
+    /* Light headings */
+    --tw-prose-lead: #9ca3af;
+    /* Light lead text */
+    --tw-prose-links: #ffffff;
+    /* Light links */
+    --tw-prose-bold: #ffffff;
+    /* Light bold text */
+    --tw-prose-quotes: #d1d5db;
+    /* Light quotes */
+    --tw-prose-quote-borders: #374151;
+    /* Dark borders for quotes */
+    --tw-prose-captions: #9ca3af;
+    /* Light captions */
+    --tw-prose-kbd: #ffffff;
+    /* Light kbd text */
+}
