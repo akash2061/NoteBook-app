@@ -66,7 +66,7 @@
 }
 
 .cm-content {
-    background-color: #04003b9c;
+    background-color: #3b4252c7;
     /* Dark background for CodeMirror editor */
     color: #e5e7eb;
     /* Light text color */
@@ -90,30 +90,32 @@
 .cm-line {
     color: #999999;
     /* Light text color for lines */
+    font-family: monospace;
 }
 
 .cm-activeLine.cm-line {
-    background-color: #06285ecc;
+    background-color: #252525cc;
     /* Slightly darker background for active line */
 }
 
-.cm-s-default .cm-comment {
-    color: #6b7280;
+.cm-s-default .cm-comment,
+.ͼ1b {
+    color: #bb6b6b;
     /* Light grey for comments */
 }
 
 .cm-s-default .cm-keyword {
-    color: #f59e0b;
-    /* Highlight keywords in orange */
+    color: #f50b6d;
 }
 
-.cm-s-default .cm-string {
+.cm-s-default .cm-string,
+.ͼ19 {
     color: #10b981;
     /* Highlight strings in green */
 }
 
 .cm-s-default .cm-number {
-    color: #f59e0b;
+    color: rgb(0, 223, 223);
     /* Highlight numbers in orange */
 }
 
