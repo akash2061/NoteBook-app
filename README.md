@@ -24,31 +24,33 @@ Notebook is a powerful Electron application built with React and TypeScript, des
 
 ## Download NoteBook:
 
-### For [Debian Based](https://github.com/akash2061/NoteBook/releases/tag/v1.0.0-Linux): 
-+ [Setup (.deb)](https://github.com/akash2061/NoteBook/releases/download/v1.0.0-Linux/NoteBook_1.0.0_amd64.deb) 
-+ [Setup (.snap)](https://github.com/akash2061/NoteBook/releases/download/v1.0.0-Linux/NoteBook_1.0.0_amd64.snap) 
-### For [Arch Linux](https://github.com/akash2061/NoteBook/releases/tag/v1.0.0-Linux): 
-+ [Setup (.pacman)](https://github.com/akash2061/NoteBook/releases/download/v1.0.0-Linux/NoteBook-1.0.0.pacman) 
+### [Releases Page](https://github.com/akash2061/NoteBook-app/releases).
+
+### For [Debian Based](https://github.com/akash2061/NoteBook-app/releases/tag/v1.1.0): 
++ [Setup (.deb)](https://github.com/akash2061/NoteBook-app/releases/download/v1.1.0/NoteBook_1.1.0_amd64.deb) 
++ [Setup (.snap)](https://github.com/akash2061/NoteBook-app/releases/download/v1.1.0/NoteBook_1.1.0_amd64.snap) 
+### For [Arch Linux](https://github.com/akash2061/NoteBook-app/releases/tag/v1.0.0-Linux): 
++ [Setup (.pacman)](https://github.com/akash2061/NoteBook-app/releases/download/v1.0.0-Linux/NoteBook-1.0.0.pacman) 
 #### Note: Navigate to downloads folder & run:
 #### For .pacman:
 ```bash
-sudo pacman -U NoteBook_1.0.0.pacman 
+sudo pacman -U NoteBook_<version>.pacman 
 ```
 #### For .deb:
 ```bash
-sudo dpkg -i NoteBook_1.0.0_amd64.deb 
+sudo dpkg -i NoteBook_<version>_amd64.deb 
 ```
 #### For .snap:
 ```bash
-sudo snap install --dangerous NoteBook_1.0.0_amd64.snap
+sudo snap install --dangerous NoteBook_<version>_amd64.snap
 ```
-### For [Windows](https://github.com/akash2061/NoteBook/releases/tag/v1.0.0): 
-+ [Setup](https://github.com/akash2061/NoteBook/releases/download/v1.0.0/notebook-1.0.0-setup.exe)
+### For [Windows](https://github.com/akash2061/NoteBook-app/releases/tag/v1.0.0): 
++ [Setup](https://github.com/akash2061/NoteBook-app/releases/download/v1.0.0/notebook-1.0.0-setup.exe)
 + [Pre-installed]()
 
 ## Project Setup:
 
-### Clone Repo. or Download [.ZIP](https://github.com/akash2061/NoteBook/archive/refs/heads/master.zip)
+### Clone Repo. or Download [.ZIP](https://github.com/akash2061/NoteBook-app/archive/refs/heads/master.zip)
 
 ```bash
 $ git clone https://github.com/akash2061/NoteBook.git
