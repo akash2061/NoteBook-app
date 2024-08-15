@@ -48,12 +48,12 @@ Here we have a numbered list:
 - `Inline code`
 - Code Snippets:
 ```rust
-    # Code Snippet Example:
-    console.log("Hey, User.");
-    console.log(`
-        Welcome to the NoteBook.
-                        --akash2061
-    `);
+# Code Snippet Example:
+console.log("Hey, User.");
+console.log(`
+    Welcome to the NoteBook.
+                    --akash2061
+`);
 ```
 
 ### In Production: 
