@@ -1,3 +1,9 @@
+![Banner](./.github-assets/Notebook-app.gif)
+![Version](https://img.shields.io/github/v/release/akash2061/NoteBook-app)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-blueviolet)
+![GitHub all releases](https://img.shields.io/github/downloads/akash2061/NoteBook-app/total)
+![Maintenance](https://img.shields.io/badge/maintenance-actively--maintained-brightgreen)
+
 # Notebook: A Desktop Application.
 
 Notebook is a powerful Electron application built with React and TypeScript, designed to streamline your note-taking experience. With its intuitive interface and robust features, Notebook provides a seamless platform for organizing your thoughts, ideas, and tasks.
