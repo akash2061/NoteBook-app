@@ -77,5 +77,9 @@ $ npm run dev
 
 I encourage contributions from the community to help make Notebook even better. Whether it's bug fixes, feature enhancements, or documentation improvements, every contribution is valuable.
 
+<p align="center">
+<a  href="https://www.buymeacoffee.com/akash2061"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Coffee&emoji=☕&slug=akash2061&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+</p>
+
 ## License
 Notebook is released under the [MIT License](LICENSE). By using this application, you agree to the terms and conditions outlined in the license agreement.
