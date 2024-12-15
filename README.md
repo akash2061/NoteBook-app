@@ -1,8 +1,14 @@
 ![Banner](./.github-assets/Notebook-app.gif)
 ![Version](https://img.shields.io/github/v/release/akash2061/NoteBook-app)
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-blueviolet)
-![GitHub all releases](https://img.shields.io/github/downloads/akash2061/NoteBook-app/total)
+![GitHub all releases](https://img.shields.io/github/downloads/akash2061/NoteBook-app/total?&color=gold)
+[![License](https://img.shields.io/github/license/ladunjexa/reactjs18-3d-portfolio?color=dddddd)](https://github.com/akash2061/NoteBook-app/blob/main/LICENSE)
 ![Maintenance](https://img.shields.io/badge/maintenance-actively--maintained-brightgreen)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/akash2061/NoteBook-app/NoteBook_1.1.0_amd64.deb?label=.deb&color=azure)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/akash2061/NoteBook-app/NoteBook_1.1.0_amd64.snap?label=.snap&color=azure)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/akash2061/NoteBook-app/NoteBook-1.0.0.pacman?label=.pacman&color=azure)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/akash2061/NoteBook-app/notebook-1.0.0-setup.exe?label=.exe&color=azure)
+
 
 # Notebook: A Desktop Application.
 
