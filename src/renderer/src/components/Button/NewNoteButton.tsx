@@ -1,5 +1,5 @@
 import { ActionButton, ActionButtonProps } from "@/components"
-import { LuFileSignature } from 'react-icons/lu'
+import { LuFile } from 'react-icons/lu'
 import { createEmptyNoteAtom } from "@renderer/store"
 import { useSetAtom } from "jotai"
 export const NewNoteButton = ({ ...props }: ActionButtonProps) => {
@@ -11,7 +11,7 @@ export const NewNoteButton = ({ ...props }: ActionButtonProps) => {
 
     return (
         <ActionButton onClick={handleCreation}{...props}>
-            <LuFileSignature className='w-4 h-4 text-zinc-300' />
+            <LuFile className='w-4 h-4 text-zinc-300' />
         </ActionButton>
     )
 }
